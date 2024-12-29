@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+
+        <!-- Christmas Bells -->
+        <img src="bell.png" alt="Christmas Bell" class="left-bell" />
+        <img src="bell.png" alt="Christmas Bell" class="right-bell" />
+
+    
+        <!--NAVBAR-->
+        <nav class="navbar">
+            <a href="#" class="logo">Portfolio.</a>
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="bars-animation">
+            <div class="bar" style="--i:6;"></div>
+            <div class="bar" style="--i:5;"></div>
+            <div class="bar" style="--i:4;"></div>
+            <div class="bar" style="--i:3;"></div>
+            <div class="bar" style="--i:2;"></div>
+            <div class="bar" style="--i:1;"></div>
+        </div>
+
+
+        <!--HOME SECTION-->
+        <section class="home">
+            <div class="home-info">
+                <h1>Santa Claus</h1>
+                <h2>I am the bringer of joy and gifts</h2>
+                <p>I travel the world on Christmas Eve, 
+                    spreading happiness and delivering presents to 
+                    children everywhere. 
+                    My sleigh, powered by magical reindeer, carries 
+                    me across the skies to ensure every child has a magical holiday.
+                </p>
+                <div class="btn-sci">
+                    <a href="https://drive.google.com/file/d/11we9UFWQvkftAXRRqHj9QMAtwKWvyC-p/view?usp=drive_link" class="btn">Download CV</a>
+                    <div class="sci">
+                        <a href="#"><i class='bx bxl-github'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                        <a href="#"><i class='bx bxl-twitter' ></i></a>
+                        <a href="#"><i class='bx bxl-youtube' ></i></a>
+                        <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-img">
+                <div class="img-box">
+                    <div class="img-item">
+                        <img src="santa_bg_removed.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I’m Santa Claus, a mythical figure and the embodiment of holiday cheer.
+            I spend my days preparing for Christmas and ensuring every child around the world
+            receives the gift they’ve been dreaming of. My hobbies include making toys,
+            baking cookies, and spreading kindness.
+        </p>
+    </section>
+
+    <!--EXPERIENCE-->
+    <section id="experience" class="bg-gray-900 text-white py-10">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Santa's Experience</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Experience 1 -->
+                <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Tech Startup CEO</h3>
+                    <p>Led a tech startup that revolutionized holiday gifting with AI and drones.</p>
+                    <ul class="list-disc pl-5 mt-2">
+                        <li>Developed "Santa's Helper" app.</li>
+                        <li>Introduced eco-friendly drone deliveries.</li>
+                        <li>Oversaw a successful merger with a tech giant.</li>
+                    </ul>
+                </div>
+                <!-- Experience 2 -->
+                <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Space Explorer</h3>
+                    <p>Delivered presents across galaxies while exploring space.</p>
+                    <ul class="list-disc pl-5 mt-2">
+                        <li>Piloted sleigh ship to Jupiter's moons.</li>
+                        <li>Worked with aliens to create universal gift protocols.</li>
+                        <li>Authored "Cosmic Christmas Chronicles."</li>
+                    </ul>
+                </div>
+                <!-- Experience 3 -->
+                <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Environmental Scientist</h3>
+                    <p>Promoted sustainability through eco-friendly gift packaging and traditions.</p>
+                    <ul class="list-disc pl-5 mt-2">
+                        <li>Launched the "Green Sleigh" initiative.</li>
+                        <li>Introduced biodegradable wrapping and sustainable toys.</li>
+                        <li>Started the "EcoSanta" campaign.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICE SECTION -->
+    <section class="services" id="services">
+        <h2>My Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Gift Delivery</h3>
+                <p>Ensuring timely and magical delivery of gifts on Christmas Eve.</p>
+            </div>
+            <div class="card">
+                <h3>Spreading Joy</h3>
+                <p>Bringing smiles to faces young and old with my jolly spirit.</p>
+            </div>
+            <div class="card">
+                <h3>Magic Sleigh Rides</h3>
+                <p>Providing unforgettable, star-lit sleigh rides across the world.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>Need to get in touch? Whether it’s for wishlists or collaborations, feel free to contact me below:<br>&nbsp;</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- About Me Section (Footer) -->
+<footer class="footer">
+    <p>By, Karthik - MuID: <a href="https://app.mulearn.org/profile/karthikkrishnan@mulearn">karthikkrishnan@mulearn</a></p>
+</footer>
+    </body>
+</html>
